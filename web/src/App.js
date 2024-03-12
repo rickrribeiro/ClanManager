@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import React, { useState } from "react";
@@ -12,11 +11,13 @@ const App = () => {
 
   return (
     <div className="container">
-      <div className="topLeadersList">
+
+      <div className="topHeaderList">
               
         <div className="clanName">A rua é noiz</div>
         <div className="subtext">Ultimas: 7 Guerras (vou aumentar qnd for coletando mais dados)</div>
       </div>
+
 
       <div className="playerslist">
         <div className="table">
