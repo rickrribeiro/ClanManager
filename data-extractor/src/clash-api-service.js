@@ -33,7 +33,7 @@ class ClashApiService {
     });
 
     const war = response.data;
-    if (war.state === 'inWar') {
+    if (war.state === 'inWar' || war.state === 'warEnded') {
       const members = war.clan.members.map((member) => {
         return {
           name: member.name,
@@ -42,6 +42,7 @@ class ClashApiService {
       });
       return {
         endTime: war.endTime,
+        state: war.state,
         attacksPerMember: war.attacksPerMember,
         members: members
       };
