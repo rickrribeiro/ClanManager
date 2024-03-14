@@ -18,7 +18,7 @@ app.use('/warLog', async (req, res) => {
 
   try {
    const members = await clashApiService.getMemberList();
-  //  const warLog = await clashApiService.getWarLog();
+  //  const warLog = await clashApiService.currentWar();
   //  stars
   //  attacks
   //  missed

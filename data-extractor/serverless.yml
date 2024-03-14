@@ -1,0 +1,28 @@
+
+service: data-extractor
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: dev
+  region: us-west-2
+
+iam:
+  role:
+    statements:
+      - Effect: "Allow"
+        "Action": [
+          "dynamodb:Query",
+          "dynamodb:Scan",
+          "dynamodb:GetItem",
+          "dynamodb:PutItem",
+          "dynamodb:UpdateItem",
+          "dynamodb:DeleteItem"
+        ]
+        "Resource": "arn:aws:dynamodb:us-west-2:111110002222:table/my-new-table"
+functions:
+  data-extractor:
+    handler: handler.main
+    events:
+      - schedule: rate(23 hours)

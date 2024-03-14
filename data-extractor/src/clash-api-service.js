@@ -24,19 +24,28 @@ class ClashApiService {
   }
 
   async currentWar(){
+ 
     const response = await axios.get( `https://api.clashofclans.com/v1/clans/%23${this.clanTag}/currentwar`,{
-        headers: {
-          Authorization: `Bearer ${process.env.CLASH_API_TOKEN}`,
-          'Content-Type': 'application/json'
-        }
-      });
-    const wars = response.data.items.map((war) => {
-        return{
-            name: war.name,
-            townHallLevel: war.townHallLevel,
-        }
+      headers: {
+        Authorization: `Bearer ${process.env.CLASH_API_TOKEN}`,
+        'Content-Type': 'application/json'
+      }
     });
-    return wars;
+   
+    const war = response.data;
+    if(war.state === 'inWar'){
+      const members = war.clan.members.map((member) => {
+          return {
+              name: member.name,
+              attacks: member.attacks,
+          }
+      });
+      return {
+        endTime: war.endTime,
+        attacksPerMember: war.attacksPerMember,
+        members: members
+      };
+    }
   }
 }
 
