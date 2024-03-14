@@ -58,13 +58,67 @@
       ]
     },
     {
-      "name": "PPK RickBahia"
+      "name": "PPK RickBahia",
+      "attacks": [
+        {
+          "attackerTag": "#JV80L89U",
+          "defenderTag": "#LLPJYVGJL",
+          "stars": 2,
+          "destructionPercentage": 92,
+          "order": 62,
+          "duration": 160
+        },
+        {
+          "attackerTag": "#JV80L89U",
+          "defenderTag": "#L9RLVR299",
+          "stars": 1,
+          "destructionPercentage": 98,
+          "order": 63,
+          "duration": 138
+        }
+      ]
     },
     {
-      "name": "paula"
+      "name": "paula",
+      "attacks": [
+        {
+          "attackerTag": "#9CRLVCLVR",
+          "defenderTag": "#8QUC0YRV2",
+          "stars": 2,
+          "destructionPercentage": 78,
+          "order": 46,
+          "duration": 138
+        },
+        {
+          "attackerTag": "#9CRLVCLVR",
+          "defenderTag": "#9C8P029UY",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 48,
+          "duration": 167
+        }
+      ]
     },
     {
-      "name": "gunawan"
+      "name": "gunawan",
+      "attacks": [
+        {
+          "attackerTag": "#2RYPJUVCP",
+          "defenderTag": "#LPY0YPY2L",
+          "stars": 1,
+          "destructionPercentage": 68,
+          "order": 31,
+          "duration": 98
+        },
+        {
+          "attackerTag": "#2RYPJUVCP",
+          "defenderTag": "#YQ222YGU8",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 38,
+          "duration": 162
+        }
+      ]
     },
     {
       "name": "WILLIAM"
@@ -91,7 +145,25 @@
       ]
     },
     {
-      "name": "Flávio Brandao"
+      "name": "Flávio Brandao",
+      "attacks": [
+        {
+          "attackerTag": "#PYYCGPPYG",
+          "defenderTag": "#PG0LQVVQ",
+          "stars": 2,
+          "destructionPercentage": 85,
+          "order": 57,
+          "duration": 124
+        },
+        {
+          "attackerTag": "#PYYCGPPYG",
+          "defenderTag": "#8QUC0YRV2",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 58,
+          "duration": 101
+        }
+      ]
     },
     {
       "name": "We$ley Spartus",
@@ -107,10 +179,46 @@
       ]
     },
     {
-      "name": "Lord P"
+      "name": "Lord P",
+      "attacks": [
+        {
+          "attackerTag": "#QRQPGLL0P",
+          "defenderTag": "#L9RLVR299",
+          "stars": 2,
+          "destructionPercentage": 68,
+          "order": 45,
+          "duration": 123
+        },
+        {
+          "attackerTag": "#QRQPGLL0P",
+          "defenderTag": "#PG0LQVVQ",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 60,
+          "duration": 98
+        }
+      ]
     },
     {
-      "name": "PIRATINHA"
+      "name": "PIRATINHA",
+      "attacks": [
+        {
+          "attackerTag": "#2CPC8R98V",
+          "defenderTag": "#LG92RVRU9",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 51,
+          "duration": 108
+        },
+        {
+          "attackerTag": "#2CPC8R98V",
+          "defenderTag": "#20YYRYRR0",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 52,
+          "duration": 170
+        }
+      ]
     },
     {
       "name": "Monica",
@@ -122,6 +230,14 @@
           "destructionPercentage": 100,
           "order": 10,
           "duration": 95
+        },
+        {
+          "attackerTag": "#CPC0UGYC",
+          "defenderTag": "#L09GVR2J0",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 61,
+          "duration": 99
         }
       ]
     },
@@ -156,6 +272,14 @@
           "destructionPercentage": 80,
           "order": 11,
           "duration": 131
+        },
+        {
+          "attackerTag": "#V9UVJYCJ",
+          "defenderTag": "#LPY0YPY2L",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 39,
+          "duration": 152
         }
       ]
     },
@@ -173,7 +297,25 @@
       ]
     },
     {
-      "name": "iasmim07"
+      "name": "iasmim07",
+      "attacks": [
+        {
+          "attackerTag": "#YY8Y92LQL",
+          "defenderTag": "#YV9VJ9LQ",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 55,
+          "duration": 86
+        },
+        {
+          "attackerTag": "#YY8Y92LQL",
+          "defenderTag": "#QC2RUCYP",
+          "stars": 2,
+          "destructionPercentage": 81,
+          "order": 56,
+          "duration": 110
+        }
+      ]
     },
     {
       "name": "william love",

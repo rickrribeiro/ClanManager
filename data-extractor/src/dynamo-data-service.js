@@ -1,7 +1,7 @@
 const BaseDataService = require("./base-data-service");
 
-class DynamoDataService extends BaseDataService{
-  
+class DynamoDataService extends BaseDataService {
+
 
 }
 
