@@ -1,0 +1,1386 @@
+[
+  {
+    "endTime": "20240403T104853.000Z",
+    "state": "warEnded",
+    "attacksPerMember": 1,
+    "members": [
+      {
+        "name": "GutoMuniz",
+        "attacks": [
+          {
+            "attackerTag": "#2J8P0R8V",
+            "defenderTag": "#8GRP9CYRR",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 6,
+            "duration": 161
+          }
+        ]
+      },
+      {
+        "name": "PPK RickBahia",
+        "attacks": [
+          {
+            "attackerTag": "#JV80L89U",
+            "defenderTag": "#PCGGJ0LCG",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 4,
+            "duration": 95
+          }
+        ]
+      },
+      {
+        "name": "paula",
+        "attacks": [
+          {
+            "attackerTag": "#9CRLVCLVR",
+            "defenderTag": "#Y0J0GQVYV",
+            "stars": 1,
+            "destructionPercentage": 61,
+            "order": 26,
+            "duration": 116
+          }
+        ]
+      },
+      {
+        "name": "gunawan",
+        "attacks": [
+          {
+            "attackerTag": "#2RYPJUVCP",
+            "defenderTag": "#Y90LRLGQU",
+            "stars": 2,
+            "destructionPercentage": 64,
+            "order": 2,
+            "duration": 108
+          }
+        ]
+      },
+      {
+        "name": "WILLIAM",
+        "attacks": [
+          {
+            "attackerTag": "#8RUJGVCJP",
+            "defenderTag": "#Y8VG0P29V",
+            "stars": 2,
+            "destructionPercentage": 58,
+            "order": 28,
+            "duration": 70
+          }
+        ]
+      },
+      {
+        "name": "djonh",
+        "attacks": [
+          {
+            "attackerTag": "#28VC9LY0",
+            "defenderTag": "#Y0YQJLCQU",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 23,
+            "duration": 93
+          }
+        ]
+      },
+      {
+        "name": "We$ley Spartus",
+        "attacks": [
+          {
+            "attackerTag": "#9LV9QRCR",
+            "defenderTag": "#22JRPP9R",
+            "stars": 2,
+            "destructionPercentage": 70,
+            "order": 29,
+            "duration": 123
+          }
+        ]
+      },
+      {
+        "name": "Lord P",
+        "attacks": [
+          {
+            "attackerTag": "#QRQPGLL0P",
+            "defenderTag": "#PJ8LQGCCJ",
+            "stars": 2,
+            "destructionPercentage": 64,
+            "order": 21,
+            "duration": 116
+          }
+        ]
+      },
+      {
+        "name": "PIRATINHA",
+        "attacks": [
+          {
+            "attackerTag": "#2CPC8R98V",
+            "defenderTag": "#Y09PJLCQV",
+            "stars": 2,
+            "destructionPercentage": 94,
+            "order": 24,
+            "duration": 180
+          }
+        ]
+      },
+      {
+        "name": "Monica",
+        "attacks": [
+          {
+            "attackerTag": "#CPC0UGYC",
+            "defenderTag": "#Y8Q8VUP28",
+            "stars": 2,
+            "destructionPercentage": 82,
+            "order": 25,
+            "duration": 99
+          }
+        ]
+      },
+      {
+        "name": "WATILA",
+        "attacks": [
+          {
+            "attackerTag": "#9G2UY2VY",
+            "defenderTag": "#UJRLYGUY",
+            "stars": 2,
+            "destructionPercentage": 55,
+            "order": 30,
+            "duration": 113
+          }
+        ]
+      },
+      {
+        "name": "DouglasC.",
+        "attacks": [
+          {
+            "attackerTag": "#V9UVJYCJ",
+            "defenderTag": "#PCR2UCR99",
+            "stars": 2,
+            "destructionPercentage": 83,
+            "order": 3,
+            "duration": 144
+          }
+        ]
+      },
+      {
+        "name": "iasmim07",
+        "attacks": [
+          {
+            "attackerTag": "#YY8Y92LQL",
+            "defenderTag": "#Y0L8CYPJR",
+            "stars": 2,
+            "destructionPercentage": 75,
+            "order": 27,
+            "duration": 83
+          }
+        ]
+      },
+      {
+        "name": "Luisinho",
+        "attacks": [
+          {
+            "attackerTag": "#8VLGUR8J9",
+            "defenderTag": "#RQLPQ0QP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 18,
+            "duration": 101
+          }
+        ]
+      },
+      {
+        "name": "Leckvitor",
+        "attacks": [
+          {
+            "attackerTag": "#Y2V2Y0UPP",
+            "defenderTag": "#PCGGJ0LCG",
+            "stars": 0,
+            "destructionPercentage": 43,
+            "order": 1,
+            "duration": 73
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "endTime": "20240404T104859.000Z",
+    "state": "warEnded",
+    "attacksPerMember": 1,
+    "members": [
+      {
+        "name": "GutoMuniz",
+        "attacks": [
+          {
+            "attackerTag": "#2J8P0R8V",
+            "defenderTag": "#8CV8QJRY2",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 9,
+            "duration": 88
+          }
+        ]
+      },
+      {
+        "name": "PPK RickBahia",
+        "attacks": [
+          {
+            "attackerTag": "#JV80L89U",
+            "defenderTag": "#J28RJYG0",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 27,
+            "duration": 110
+          }
+        ]
+      },
+      {
+        "name": "paula",
+        "attacks": [
+          {
+            "attackerTag": "#9CRLVCLVR",
+            "defenderTag": "#LLLYP2UYC",
+            "stars": 1,
+            "destructionPercentage": 61,
+            "order": 11,
+            "duration": 93
+          }
+        ]
+      },
+      {
+        "name": "gunawan",
+        "attacks": [
+          {
+            "attackerTag": "#2RYPJUVCP",
+            "defenderTag": "#8PJGRQJJV",
+            "stars": 2,
+            "destructionPercentage": 78,
+            "order": 2,
+            "duration": 107
+          }
+        ]
+      },
+      {
+        "name": "WILLIAM",
+        "attacks": [
+          {
+            "attackerTag": "#8RUJGVCJP",
+            "defenderTag": "#QQGG088UV",
+            "stars": 1,
+            "destructionPercentage": 65,
+            "order": 14,
+            "duration": 56
+          }
+        ]
+      },
+      {
+        "name": "djonh",
+        "attacks": [
+          {
+            "attackerTag": "#28VC9LY0",
+            "defenderTag": "#9C8UGQ8C",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 8,
+            "duration": 121
+          }
+        ]
+      },
+      {
+        "name": "We$ley Spartus",
+        "attacks": [
+          {
+            "attackerTag": "#9LV9QRCR",
+            "defenderTag": "#Q880GR9",
+            "stars": 2,
+            "destructionPercentage": 63,
+            "order": 15,
+            "duration": 82
+          }
+        ]
+      },
+      {
+        "name": "Lord P",
+        "attacks": [
+          {
+            "attackerTag": "#QRQPGLL0P",
+            "defenderTag": "#LP0QVPRYG",
+            "stars": 2,
+            "destructionPercentage": 84,
+            "order": 24,
+            "duration": 162
+          }
+        ]
+      },
+      {
+        "name": "PIRATINHA",
+        "attacks": [
+          {
+            "attackerTag": "#2CPC8R98V",
+            "defenderTag": "#Q2L9JYVQJ",
+            "stars": 2,
+            "destructionPercentage": 73,
+            "order": 16,
+            "duration": 114
+          }
+        ]
+      },
+      {
+        "name": "Monica",
+        "attacks": [
+          {
+            "attackerTag": "#CPC0UGYC",
+            "defenderTag": "#L898JUULR",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 10,
+            "duration": 118
+          }
+        ]
+      },
+      {
+        "name": "WATILA",
+        "attacks": [
+          {
+            "attackerTag": "#9G2UY2VY",
+            "defenderTag": "#2YR2CY2C0",
+            "stars": 2,
+            "destructionPercentage": 57,
+            "order": 1,
+            "duration": 127
+          }
+        ]
+      },
+      {
+        "name": "DouglasC.",
+        "attacks": [
+          {
+            "attackerTag": "#V9UVJYCJ",
+            "defenderTag": "#2LJ9QV2J",
+            "stars": 2,
+            "destructionPercentage": 90,
+            "order": 6,
+            "duration": 155
+          }
+        ]
+      },
+      {
+        "name": "Gaby",
+        "attacks": [
+          {
+            "attackerTag": "#QYRRCP9VQ",
+            "defenderTag": "#YLJUJ9UQ9",
+            "stars": 2,
+            "destructionPercentage": 50,
+            "order": 12,
+            "duration": 98
+          }
+        ]
+      },
+      {
+        "name": "iasmim07",
+        "attacks": [
+          {
+            "attackerTag": "#YY8Y92LQL",
+            "defenderTag": "#88YJYR99C",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 22,
+            "duration": 91
+          }
+        ]
+      },
+      {
+        "name": "Luisinho",
+        "attacks": [
+          {
+            "attackerTag": "#8VLGUR8J9",
+            "defenderTag": "#V2U0LQ88",
+            "stars": 1,
+            "destructionPercentage": 84,
+            "order": 23,
+            "duration": 102
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "endTime": "20240405T111952.000Z",
+    "state": "warEnded",
+    "attacksPerMember": 1,
+    "members": [
+      {
+        "name": "GutoMuniz",
+        "attacks": [
+          {
+            "attackerTag": "#2J8P0R8V",
+            "defenderTag": "#JRUGJL2V",
+            "stars": 2,
+            "destructionPercentage": 79,
+            "order": 12,
+            "duration": 117
+          }
+        ]
+      },
+      {
+        "name": "PPK RickBahia",
+        "attacks": [
+          {
+            "attackerTag": "#JV80L89U",
+            "defenderTag": "#G0UGJGVJ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 28,
+            "duration": 136
+          }
+        ]
+      },
+      {
+        "name": "paula",
+        "attacks": [
+          {
+            "attackerTag": "#9CRLVCLVR",
+            "defenderTag": "#YQ9QY0VQ8",
+            "stars": 2,
+            "destructionPercentage": 74,
+            "order": 13,
+            "duration": 113
+          }
+        ]
+      },
+      {
+        "name": "gunawan",
+        "attacks": [
+          {
+            "attackerTag": "#2RYPJUVCP",
+            "defenderTag": "#2YRV9PR0Y",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 5,
+            "duration": 127
+          }
+        ]
+      },
+      {
+        "name": "WILLIAM",
+        "attacks": [
+          {
+            "attackerTag": "#8RUJGVCJP",
+            "defenderTag": "#GRRYLQ0Y",
+            "stars": 2,
+            "destructionPercentage": 78,
+            "order": 19,
+            "duration": 73
+          }
+        ]
+      },
+      {
+        "name": "djonh",
+        "attacks": [
+          {
+            "attackerTag": "#28VC9LY0",
+            "defenderTag": "#GUGU9JG8",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 15,
+            "duration": 100
+          }
+        ]
+      },
+      {
+        "name": "We$ley Spartus",
+        "attacks": [
+          {
+            "attackerTag": "#9LV9QRCR",
+            "defenderTag": "#9YRY2YCV",
+            "stars": 1,
+            "destructionPercentage": 67,
+            "order": 24,
+            "duration": 84
+          }
+        ]
+      },
+      {
+        "name": "Lord P",
+        "attacks": [
+          {
+            "attackerTag": "#QRQPGLL0P",
+            "defenderTag": "#8U8LYU92",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 14,
+            "duration": 125
+          }
+        ]
+      },
+      {
+        "name": "PIRATINHA"
+      },
+      {
+        "name": "Monica",
+        "attacks": [
+          {
+            "attackerTag": "#CPC0UGYC",
+            "defenderTag": "#PLG29JUC",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 7,
+            "duration": 102
+          }
+        ]
+      },
+      {
+        "name": "WATILA",
+        "attacks": [
+          {
+            "attackerTag": "#9G2UY2VY",
+            "defenderTag": "#PPUJVRVV",
+            "stars": 2,
+            "destructionPercentage": 75,
+            "order": 4,
+            "duration": 150
+          }
+        ]
+      },
+      {
+        "name": "DouglasC.",
+        "attacks": [
+          {
+            "attackerTag": "#V9UVJYCJ",
+            "defenderTag": "#GCP82JYG",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 3,
+            "duration": 132
+          }
+        ]
+      },
+      {
+        "name": "Gaby",
+        "attacks": [
+          {
+            "attackerTag": "#QYRRCP9VQ",
+            "defenderTag": "#9Q2G8JR8V",
+            "stars": 2,
+            "destructionPercentage": 78,
+            "order": 25,
+            "duration": 143
+          }
+        ]
+      },
+      {
+        "name": "iasmim07",
+        "attacks": [
+          {
+            "attackerTag": "#YY8Y92LQL",
+            "defenderTag": "#9CQQYPVY",
+            "stars": 2,
+            "destructionPercentage": 60,
+            "order": 21,
+            "duration": 97
+          }
+        ]
+      },
+      {
+        "name": "Luisinho",
+        "attacks": [
+          {
+            "attackerTag": "#8VLGUR8J9",
+            "defenderTag": "#YQVQ9LPG",
+            "stars": 1,
+            "destructionPercentage": 95,
+            "order": 9,
+            "duration": 180
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "endTime": "20240406T114220.000Z",
+    "state": "warEnded",
+    "attacksPerMember": 1,
+    "members": [
+      {
+        "name": "GutoMuniz",
+        "attacks": [
+          {
+            "attackerTag": "#2J8P0R8V",
+            "defenderTag": "#Q08UURJLC",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 25,
+            "duration": 111
+          }
+        ]
+      },
+      {
+        "name": "PPK RickBahia",
+        "attacks": [
+          {
+            "attackerTag": "#JV80L89U",
+            "defenderTag": "#Q8VLLG9YJ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 24,
+            "duration": 92
+          }
+        ]
+      },
+      {
+        "name": "paula",
+        "attacks": [
+          {
+            "attackerTag": "#9CRLVCLVR",
+            "defenderTag": "#CLVJLCR2",
+            "stars": 2,
+            "destructionPercentage": 61,
+            "order": 8,
+            "duration": 89
+          }
+        ]
+      },
+      {
+        "name": "gunawan",
+        "attacks": [
+          {
+            "attackerTag": "#2RYPJUVCP",
+            "defenderTag": "#2Q9QCJ00Y",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 4,
+            "duration": 103
+          }
+        ]
+      },
+      {
+        "name": "WILLIAM",
+        "attacks": [
+          {
+            "attackerTag": "#8RUJGVCJP",
+            "defenderTag": "#8JRRGQVQU",
+            "stars": 2,
+            "destructionPercentage": 88,
+            "order": 21,
+            "duration": 93
+          }
+        ]
+      },
+      {
+        "name": "djonh",
+        "attacks": [
+          {
+            "attackerTag": "#28VC9LY0",
+            "defenderTag": "#QGC8YC0L",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 12,
+            "duration": 78
+          }
+        ]
+      },
+      {
+        "name": "We$ley Spartus",
+        "attacks": [
+          {
+            "attackerTag": "#9LV9QRCR",
+            "defenderTag": "#YUU2J0LPV",
+            "stars": 1,
+            "destructionPercentage": 43,
+            "order": 2,
+            "duration": 84
+          }
+        ]
+      },
+      {
+        "name": "Lord P"
+      },
+      {
+        "name": "PIRATINHA",
+        "attacks": [
+          {
+            "attackerTag": "#2CPC8R98V",
+            "defenderTag": "#G2299QGLU",
+            "stars": 2,
+            "destructionPercentage": 86,
+            "order": 1,
+            "duration": 180
+          }
+        ]
+      },
+      {
+        "name": "Monica",
+        "attacks": [
+          {
+            "attackerTag": "#CPC0UGYC",
+            "defenderTag": "#2PR8R0L89",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 23,
+            "duration": 98
+          }
+        ]
+      },
+      {
+        "name": "WATILA",
+        "attacks": [
+          {
+            "attackerTag": "#9G2UY2VY",
+            "defenderTag": "#L0J0JG2LU",
+            "stars": 2,
+            "destructionPercentage": 64,
+            "order": 6,
+            "duration": 177
+          }
+        ]
+      },
+      {
+        "name": "DouglasC.",
+        "attacks": [
+          {
+            "attackerTag": "#V9UVJYCJ",
+            "defenderTag": "#22L9PQ0QC",
+            "stars": 1,
+            "destructionPercentage": 87,
+            "order": 7,
+            "duration": 125
+          }
+        ]
+      },
+      {
+        "name": "Gaby",
+        "attacks": [
+          {
+            "attackerTag": "#QYRRCP9VQ",
+            "defenderTag": "#2QLGGQL28",
+            "stars": 2,
+            "destructionPercentage": 89,
+            "order": 26,
+            "duration": 119
+          }
+        ]
+      },
+      {
+        "name": "iasmim07"
+      },
+      {
+        "name": "Luisinho",
+        "attacks": [
+          {
+            "attackerTag": "#8VLGUR8J9",
+            "defenderTag": "#RGULGCRL",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 11,
+            "duration": 176
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "endTime": "20240407T114230.000Z",
+    "state": "warEnded",
+    "attacksPerMember": 1,
+    "members": [
+      {
+        "name": "GutoMuniz",
+        "attacks": [
+          {
+            "attackerTag": "#2J8P0R8V",
+            "defenderTag": "#LG0JVU9C8",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 2,
+            "duration": 101
+          }
+        ]
+      },
+      {
+        "name": "PPK RickBahia",
+        "attacks": [
+          {
+            "attackerTag": "#JV80L89U",
+            "defenderTag": "#80RR2QGU",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 15,
+            "duration": 95
+          }
+        ]
+      },
+      {
+        "name": "paula",
+        "attacks": [
+          {
+            "attackerTag": "#9CRLVCLVR",
+            "defenderTag": "#Y0VL8JUL",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 3,
+            "duration": 122
+          }
+        ]
+      },
+      {
+        "name": "gunawan",
+        "attacks": [
+          {
+            "attackerTag": "#2RYPJUVCP",
+            "defenderTag": "#9RVRG2P89",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 7,
+            "duration": 154
+          }
+        ]
+      },
+      {
+        "name": "WILLIAM",
+        "attacks": [
+          {
+            "attackerTag": "#8RUJGVCJP",
+            "defenderTag": "#82L8GYRJJ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 8,
+            "duration": 79
+          }
+        ]
+      },
+      {
+        "name": "djonh",
+        "attacks": [
+          {
+            "attackerTag": "#28VC9LY0",
+            "defenderTag": "#29YGR2000",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 1,
+            "duration": 161
+          }
+        ]
+      },
+      {
+        "name": "We$ley Spartus",
+        "attacks": [
+          {
+            "attackerTag": "#9LV9QRCR",
+            "defenderTag": "#LYYYJG0U9",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 19,
+            "duration": 100
+          }
+        ]
+      },
+      {
+        "name": "Lord P",
+        "attacks": [
+          {
+            "attackerTag": "#QRQPGLL0P",
+            "defenderTag": "#LJVJ8VCG2",
+            "stars": 2,
+            "destructionPercentage": 83,
+            "order": 18,
+            "duration": 138
+          }
+        ]
+      },
+      {
+        "name": "PIRATINHA",
+        "attacks": [
+          {
+            "attackerTag": "#2CPC8R98V",
+            "defenderTag": "#L9J9LYL0U",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 9,
+            "duration": 162
+          }
+        ]
+      },
+      {
+        "name": "Monica",
+        "attacks": [
+          {
+            "attackerTag": "#CPC0UGYC",
+            "defenderTag": "#LP9QJ9VJP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 11,
+            "duration": 148
+          }
+        ]
+      },
+      {
+        "name": "WATILA",
+        "attacks": [
+          {
+            "attackerTag": "#9G2UY2VY",
+            "defenderTag": "#P9GGJPRY",
+            "stars": 2,
+            "destructionPercentage": 64,
+            "order": 14,
+            "duration": 126
+          }
+        ]
+      },
+      {
+        "name": "DouglasC.",
+        "attacks": [
+          {
+            "attackerTag": "#V9UVJYCJ",
+            "defenderTag": "#R0UPC9CL",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 5,
+            "duration": 175
+          }
+        ]
+      },
+      {
+        "name": "Gaby",
+        "attacks": [
+          {
+            "attackerTag": "#QYRRCP9VQ",
+            "defenderTag": "#P98JLCLLV",
+            "stars": 2,
+            "destructionPercentage": 78,
+            "order": 20,
+            "duration": 141
+          }
+        ]
+      },
+      {
+        "name": "iasmim07",
+        "attacks": [
+          {
+            "attackerTag": "#YY8Y92LQL",
+            "defenderTag": "#9GR2P8G8Q",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 16,
+            "duration": 101
+          }
+        ]
+      },
+      {
+        "name": "Luisinho",
+        "attacks": [
+          {
+            "attackerTag": "#8VLGUR8J9",
+            "defenderTag": "#YY0JU8",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 12,
+            "duration": 105
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "endTime": "20240408T114835.000Z",
+    "state": "warEnded",
+    "attacksPerMember": 1,
+    "members": [
+      {
+        "name": "GutoMuniz",
+        "attacks": [
+          {
+            "attackerTag": "#2J8P0R8V",
+            "defenderTag": "#Q0LP92UPC",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 7,
+            "duration": 91
+          }
+        ]
+      },
+      {
+        "name": "PPK RickBahia",
+        "attacks": [
+          {
+            "attackerTag": "#JV80L89U",
+            "defenderTag": "#L9P2P8V99",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 8,
+            "duration": 93
+          }
+        ]
+      },
+      {
+        "name": "paula",
+        "attacks": [
+          {
+            "attackerTag": "#9CRLVCLVR",
+            "defenderTag": "#QYCVPJYY2",
+            "stars": 1,
+            "destructionPercentage": 88,
+            "order": 10,
+            "duration": 180
+          }
+        ]
+      },
+      {
+        "name": "gunawan",
+        "attacks": [
+          {
+            "attackerTag": "#2RYPJUVCP",
+            "defenderTag": "#QGJPRLU9Y",
+            "stars": 2,
+            "destructionPercentage": 99,
+            "order": 3,
+            "duration": 159
+          }
+        ]
+      },
+      {
+        "name": "WILLIAM",
+        "attacks": [
+          {
+            "attackerTag": "#8RUJGVCJP",
+            "defenderTag": "#LP09J0QRU",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 14,
+            "duration": 120
+          }
+        ]
+      },
+      {
+        "name": "djonh",
+        "attacks": [
+          {
+            "attackerTag": "#28VC9LY0",
+            "defenderTag": "#LPJJQP9Q8",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 6,
+            "duration": 108
+          }
+        ]
+      },
+      {
+        "name": "We$ley Spartus",
+        "attacks": [
+          {
+            "attackerTag": "#9LV9QRCR",
+            "defenderTag": "#9YUU882Q",
+            "stars": 2,
+            "destructionPercentage": 80,
+            "order": 5,
+            "duration": 109
+          }
+        ]
+      },
+      {
+        "name": "Lord P",
+        "attacks": [
+          {
+            "attackerTag": "#QRQPGLL0P",
+            "defenderTag": "#LPPQVV9RG",
+            "stars": 2,
+            "destructionPercentage": 81,
+            "order": 18,
+            "duration": 176
+          }
+        ]
+      },
+      {
+        "name": "PIRATINHA",
+        "attacks": [
+          {
+            "attackerTag": "#2CPC8R98V",
+            "defenderTag": "#QLLVCUR2Y",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 1,
+            "duration": 159
+          }
+        ]
+      },
+      {
+        "name": "Monica",
+        "attacks": [
+          {
+            "attackerTag": "#CPC0UGYC",
+            "defenderTag": "#QLCYP089V",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 11,
+            "duration": 77
+          }
+        ]
+      },
+      {
+        "name": "WATILA",
+        "attacks": [
+          {
+            "attackerTag": "#9G2UY2VY",
+            "defenderTag": "#2YJJLYYGU",
+            "stars": 2,
+            "destructionPercentage": 96,
+            "order": 4,
+            "duration": 180
+          }
+        ]
+      },
+      {
+        "name": "DouglasC.",
+        "attacks": [
+          {
+            "attackerTag": "#V9UVJYCJ",
+            "defenderTag": "#YJQ80J0UP",
+            "stars": 2,
+            "destructionPercentage": 92,
+            "order": 12,
+            "duration": 150
+          }
+        ]
+      },
+      {
+        "name": "Gaby",
+        "attacks": [
+          {
+            "attackerTag": "#QYRRCP9VQ",
+            "defenderTag": "#QGY0QVVPY",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 13,
+            "duration": 153
+          }
+        ]
+      },
+      {
+        "name": "iasmim07",
+        "attacks": [
+          {
+            "attackerTag": "#YY8Y92LQL",
+            "defenderTag": "#U09RPV2J",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 15,
+            "duration": 105
+          }
+        ]
+      },
+      {
+        "name": "Luisinho",
+        "attacks": [
+          {
+            "attackerTag": "#8VLGUR8J9",
+            "defenderTag": "#Q8VCLCL2",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 9,
+            "duration": 97
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "endTime": "20240409T121724.000Z",
+    "state": "warEnded",
+    "attacksPerMember": 1,
+    "members": [
+      {
+        "name": "GutoMuniz",
+        "attacks": [
+          {
+            "attackerTag": "#2J8P0R8V",
+            "defenderTag": "#LCRCJ89J",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 5,
+            "duration": 68
+          }
+        ]
+      },
+      {
+        "name": "PPK RickBahia",
+        "attacks": [
+          {
+            "attackerTag": "#JV80L89U",
+            "defenderTag": "#LQ92VPYJL",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 9,
+            "duration": 72
+          }
+        ]
+      },
+      {
+        "name": "paula",
+        "attacks": [
+          {
+            "attackerTag": "#9CRLVCLVR",
+            "defenderTag": "#QJ0PCUUPR",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 4,
+            "duration": 109
+          }
+        ]
+      },
+      {
+        "name": "gunawan",
+        "attacks": [
+          {
+            "attackerTag": "#2RYPJUVCP",
+            "defenderTag": "#8C08PCL98",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 3,
+            "duration": 114
+          }
+        ]
+      },
+      {
+        "name": "WILLIAM",
+        "attacks": [
+          {
+            "attackerTag": "#8RUJGVCJP",
+            "defenderTag": "#Y2G9Q8V9",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 12,
+            "duration": 62
+          }
+        ]
+      },
+      {
+        "name": "djonh",
+        "attacks": [
+          {
+            "attackerTag": "#28VC9LY0",
+            "defenderTag": "#YGR8L09L",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 2,
+            "duration": 74
+          }
+        ]
+      },
+      {
+        "name": "We$ley Spartus",
+        "attacks": [
+          {
+            "attackerTag": "#9LV9QRCR",
+            "defenderTag": "#PGVVUPCLV",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 7,
+            "duration": 87
+          }
+        ]
+      },
+      {
+        "name": "Lord P",
+        "attacks": [
+          {
+            "attackerTag": "#QRQPGLL0P",
+            "defenderTag": "#JR2UQUPJ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 6,
+            "duration": 89
+          }
+        ]
+      },
+      {
+        "name": "PIRATINHA",
+        "attacks": [
+          {
+            "attackerTag": "#2CPC8R98V",
+            "defenderTag": "#2C2R2Q2CP",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 1,
+            "duration": 103
+          }
+        ]
+      },
+      {
+        "name": "Monica",
+        "attacks": [
+          {
+            "attackerTag": "#CPC0UGYC",
+            "defenderTag": "#9Q0GQG89",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 8,
+            "duration": 66
+          }
+        ]
+      },
+      {
+        "name": "WATILA",
+        "attacks": [
+          {
+            "attackerTag": "#9G2UY2VY",
+            "defenderTag": "#Y9JLU2RVL",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 16,
+            "duration": 101
+          }
+        ]
+      },
+      {
+        "name": "DouglasC.",
+        "attacks": [
+          {
+            "attackerTag": "#V9UVJYCJ",
+            "defenderTag": "#22QJ9V0VQ",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 13,
+            "duration": 111
+          }
+        ]
+      },
+      {
+        "name": "Gaby",
+        "attacks": [
+          {
+            "attackerTag": "#QYRRCP9VQ",
+            "defenderTag": "#22RV28UG8",
+            "stars": 2,
+            "destructionPercentage": 97,
+            "order": 11,
+            "duration": 167
+          }
+        ]
+      },
+      {
+        "name": "iasmim07",
+        "attacks": [
+          {
+            "attackerTag": "#YY8Y92LQL",
+            "defenderTag": "#PVYUG9VGC",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 14,
+            "duration": 70
+          }
+        ]
+      },
+      {
+        "name": "Luisinho",
+        "attacks": [
+          {
+            "attackerTag": "#8VLGUR8J9",
+            "defenderTag": "#2QVLCUQRV",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 10,
+            "duration": 102
+          }
+        ]
+      }
+    ]
+  }
+]
