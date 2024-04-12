@@ -1,12 +1,11 @@
 import data from '../data/mockData.json'
-class ClashApiService{
+class ClashApiService {
 
-    constructor(){
-
+    constructor() {
         this.proxyUrl = 'http://127.0.0.1:5000'
     }
 
-    async getClanWarLog(){
+    async getClanWarLog() {
         // const response = await fetch(`${this.proxyUrl}/warLog`, {});
         // const data = await response.json()
         // return data?.members || [];
@@ -17,10 +16,10 @@ class ClashApiService{
             if (a.stars > b.stars) return -1;
             if (a.destruction < b.destruction) return 1;
             if (a.destruction > b.destruction) return -1;
-          
+
             return 0;
-          });
-        
+        });
+
         return data
     }
 }

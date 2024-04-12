@@ -8,15 +8,15 @@ module.exports.main = async (event) => {
   try {
 
     const clashApiService = new ClashApiService();
-    const currentLeague = await clashApiService.getCurrentWarLeagueGroupWarTags();
-    const leagueAttacks = [];
-    for (const warTag of currentLeague.warTags) {
-      const warData = await clashApiService.getLeagueWarDetails(warTag);
-      if (warData.members.length > 0) {
-        leagueAttacks.push(warData);
-      }
-    }
-    //const warData = await clashApiService.getCurrentWar()
+    // const currentLeague = await clashApiService.getCurrentWarLeagueGroupWarTags();
+    // const leagueAttacks = [];
+    // for (const warTag of currentLeague.warTags) {
+    //   const warData = await clashApiService.getLeagueWarDetails(warTag);
+    //   if (warData.members.length > 0) {
+    //     leagueAttacks.push(warData);
+    //   }
+    // }
+    const warData = await clashApiService.getCurrentWar()
     // const endTime = DateHelper.convertClashDateToDateObject(warData.endTime);
     // this logic isnt necessary for normal war, commented to see if its necessary during league
     // const shouldScheduleNextExecution = !DateHelper.isLessThanXMinutesFromNow(endTime, 3);
@@ -36,8 +36,8 @@ clanwarleagues/war/wartag fo the war details. with wartag you can request the wa
 
     */
     const dataService = new (DataServiceFactory.getDataService('local'));
-    // dataService.writeWarData(warData);
-    dataService.writeWarData(leagueAttacks);
+    dataService.writeWarData(warData);
+    //dataService.writeWarData(leagueAttacks);
     return {
       statusCode: 200,
       body: JSON.stringify(
