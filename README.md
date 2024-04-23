@@ -1,6 +1,6 @@
 # ClanManager
 
 - web: front web
-- data-extractor: lambda to run in a cron to extract war data and fill db
+- data-extractor: lambda to extract war data and fill db
 
 clash api: https://developer.clashofclans.com/

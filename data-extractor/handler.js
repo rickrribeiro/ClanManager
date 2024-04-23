@@ -10,7 +10,9 @@ const config = require('./src/config');
 // warEnded will stay for around 48 hours or you start a new war search
 module.exports.main = async (event) => {
   try {
-
+    // rodar a request de pegar os membros do clan e atualizar no banco a lista de membros
+    // fazer isso para mostrar também os membros que não participaram de nenhuma guerra e não mostrar os membros que sairam do clan
+    //!!!!!!!! usar a tag do player como chave pois o player pode mudar de nick !!!!!!!
     const clashApiService = new ClashApiService(config);
     const dataService = new (DataServiceFactory.getDataService(config.dataServiceType));
     const workflow = WorkflowFactory.createWorkflow(clashApiService, dataService); // , event.type

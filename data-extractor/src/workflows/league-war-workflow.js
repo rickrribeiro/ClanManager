@@ -14,7 +14,7 @@ class LeagueWarWorkflow extends BaseWorkflow {
 
   async getAttacksData() {
     // durante a proxima liga tratar retorno com calma p padronizar com o normal. 
-    // Rodar o foreach p cada membro, contar quantos ataques e definir a mesma estrutura de array de attacks
+    // Rodar o foreach p cada guerra e dar push em um unico array de atk
     const leagueAttacks = [];
     for (const warTag of this.currentWar.warTags) {
       const warData = await this.clashApiService.getLeagueWarDetails(warTag);
