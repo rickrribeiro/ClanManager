@@ -2,13 +2,13 @@ const axios = require('axios');
 
 class ClashApiService {
 
-  constructor() {
-    this.baseUrl = 'https://api.clashofclans.com/v1'
-    this.clanTag = 'G92RCCJ';
+  constructor(config) {
+    this.baseUrl = config.baseUrl || 'https://api.clashofclans.com/v1';
+    this.clanTag = config.clanTag || 'G92RCCJ';
   }
 
   async getMemberList() {
-    const response = await axios.get(`https://api.clashofclans.com/v1/clans/%23${this.clanTag}/members`, {
+    const response = await axios.get(`${this.baseUrl}/clans/%23${this.clanTag}/members`, {
       headers: {
         Authorization: `Bearer ${process.env.CLASH_API_TOKEN}`,
         'Content-Type': 'application/json'
@@ -25,7 +25,7 @@ class ClashApiService {
 
   async getCurrentWar() {
 
-    const response = await axios.get(`https://api.clashofclans.com/v1/clans/%23${this.clanTag}/currentwar`, {
+    const response = await axios.get(`${this.baseUrl}/clans/%23${this.clanTag}/currentwar`, {
       headers: {
         Authorization: `Bearer ${process.env.CLASH_API_TOKEN}`,
         'Content-Type': 'application/json'
@@ -51,7 +51,7 @@ class ClashApiService {
 
   async getCurrentWarLeagueGroupWarTags() {
 
-    const response = await axios.get(`https://api.clashofclans.com/v1/clans/%23${this.clanTag}/currentwar/leaguegroup`, {
+    const response = await axios.get(`${this.baseUrl}/clans/%23${this.clanTag}/currentwar/leaguegroup`, {
       headers: {
         Authorization: `Bearer ${process.env.CLASH_API_TOKEN}`,
         'Content-Type': 'application/json'
@@ -77,7 +77,7 @@ class ClashApiService {
 
   async getLeagueWarDetails(warTag) {
 
-    const response = await axios.get(`https://api.clashofclans.com/v1/clanwarleagues/wars/${warTag.replace('#', '%23')}`, {
+    const response = await axios.get(`${this.baseUrl}/clanwarleagues/wars/${warTag.replace('#', '%23')}`, {
       headers: {
         Authorization: `Bearer ${process.env.CLASH_API_TOKEN}`,
         'Content-Type': 'application/json'

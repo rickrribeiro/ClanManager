@@ -4,7 +4,7 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "invoke-local": "serverless invoke local --function data-extractor"
+    "invoke-local": "serverless invoke local --function data-extractor --path invoke-local-data.json"
   },
   "author": "",
   "license": "ISC",
