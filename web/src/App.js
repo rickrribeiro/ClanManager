@@ -15,7 +15,7 @@ const App = () => {
       <div className="topHeaderList">
 
         <div className="clanName">A rua é noiz</div>
-        <div className="subtext">Ultimas: 3 Guerras e 2 ligas (vou aumentar qnd for coletando mais dados)</div>
+        <div className="subtext">Last 3 Wars and 2 leagues</div>
       </div>
 
 
@@ -25,20 +25,20 @@ const App = () => {
 
           <div>Nick</div>
 
-          <div>Estrelas</div>
+          <div>Stars</div>
 
-          <div>Ataques</div>
+          <div>Attacks</div>
 
           <div>
-            Attacks perdidos
+            Missed Attacks
           </div>
 
           <div>
-            destruição %
+            destruction average %
           </div>
 
           <div>
-            CV
+            TH
           </div>
 
         </div>
