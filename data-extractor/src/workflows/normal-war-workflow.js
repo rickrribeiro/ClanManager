@@ -1,3 +1,4 @@
+const BaseWorkflow = require('./base-workflow');
 
 class NormalWarWorkflow extends BaseWorkflow {
   constructor(clasApiService, dataService, currentWar) {

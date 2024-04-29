@@ -50,28 +50,35 @@ class ClashApiService {
   }
 
   async getCurrentWarLeagueGroupWarTags() {
+    try {
 
-    const response = await axios.get(`${this.baseUrl}/clans/%23${this.clanTag}/currentwar/leaguegroup`, {
-      headers: {
-        Authorization: `Bearer ${process.env.CLASH_API_TOKEN}`,
-        'Content-Type': 'application/json'
-      }
-    });
-
-    const war = response.data;
-    // TODO - verify how to get end time for league war to create an event
-    let warTags = [];
-    if (war.state === 'ended') {
-      war.rounds.forEach((round) => {
-        round.warTags.forEach((warTag) => {
-          warTags.push(warTag);
-        });
+      const response = await axios.get(`${this.baseUrl}/clans/%23${this.clanTag}/currentwar/leaguegroup`, {
+        headers: {
+          Authorization: `Bearer ${process.env.CLASH_API_TOKEN}`,
+          'Content-Type': 'application/json'
+        }
       });
+
+      const war = response.data;
+      // TODO - verify how to get end time for league war to create an event
+      let warTags = [];
+      if (war.state === 'ended') {
+        war.rounds.forEach((round) => {
+          round.warTags.forEach((warTag) => {
+            warTags.push(warTag);
+          });
+        });
+        return {
+          endTime: war.endTime,
+          state: war.state,
+          warTags: warTags
+        };
+      }
+    } catch (err) {
+      console.log(err); // TODO - TRATAR AQUI DEPOIS OE RROOOOO
       return {
-        endTime: war.endTime,
-        state: war.state,
-        warTags: warTags
-      };
+        reason: 'notFound'
+      }
     }
   }
 

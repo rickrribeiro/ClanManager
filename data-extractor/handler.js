@@ -15,7 +15,7 @@ module.exports.main = async (event) => {
     //!!!!!!!! usar a tag do player como chave pois o player pode mudar de nick !!!!!!!
     const clashApiService = new ClashApiService(config);
     const dataService = new (DataServiceFactory.getDataService(config.dataServiceType));
-    const workflow = WorkflowFactory.createWorkflow(clashApiService, dataService); // , event.type
+    const workflow = await WorkflowFactory.createWorkflow(clashApiService, dataService); // , event.type
     WorkflowExecutor.execute(workflow);
     // const endTime = DateHelper.convertClashDateToDateObject(warData.endTime);
     // const shouldScheduleNextExecution = !DateHelper.isLessThanXMinutesFromNow(endTime, 3);

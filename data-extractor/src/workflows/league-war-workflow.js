@@ -1,4 +1,4 @@
-
+const BaseWorkflow = require('./base-workflow');
 class LeagueWarWorkflow extends BaseWorkflow {
   constructor(clasApiService, dataService, currentWar) {
     super(clasApiService, dataService, currentWar);

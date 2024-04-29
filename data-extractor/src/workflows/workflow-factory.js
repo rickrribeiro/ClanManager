@@ -1,16 +1,18 @@
 const WarTypeEnum = require('../enums/war-type-enum');
 const { MaintenanceError, NoWorkflowSelectedError, WTFError, UnexpectedError } = require('../errors');
-const { NormalWarWorkflow, LeagueWarWorkflow } = require('./index');
+// const { NormalWarWorkflow, LeagueWarWorkflow } = require('./index');
+const LeagueWarWorkflow = require("./league-war-workflow");
+const NormalWarWorkflow = require("./normal-war-workflow");
 class WorkflowFactory {
 
-  static createWorkflow(clashApiService, dataService) { // , type
+  static async createWorkflow(clashApiService, dataService) { // , type
     let workflowType; //  = type
     let currentNormalWar;
     let currentLeagueWar;
 
     if (!workflowType) {
-      currentNormalWar = clashApiService.getCurrentWar();
-      currentLeagueWar = clashApiService.getCurrentWarLeagueGroupWarTags();
+      currentNormalWar = await clashApiService.getCurrentWar();
+      currentLeagueWar = await clashApiService.getCurrentWarLeagueGroupWarTags();
 
       if (currentNormalWar.reason == 'inMaintenance' && currentLeagueWar.reason == 'inMaintenance') {
         throw new MaintenanceError();
