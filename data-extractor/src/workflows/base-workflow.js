@@ -1,10 +1,13 @@
 const { NoDataToWriteError } = require("../errors");
+const warTypeEnum = require('../enums/war-type-enum');
+const DateHelper = require("../helpers/date-helper");
 
 class BaseWorkflow {
-  constructor(clasApiService, dataService, currentWar) {
+  constructor(clasApiService, dataService, currentWar, warType) {
     this.clashApiService = clasApiService;
     this.dataService = dataService;
     this.currentWar = currentWar;
+    this.warType = warType;
     this.warData;
   }
 
@@ -23,7 +26,13 @@ class BaseWorkflow {
     if (!this.warData) {
       throw new NoDataToWriteError();
     }
-    this.dataService.writeWarData(this.warData);
+    let documentId;
+    if (this.warType == warTypeEnum.LEAGUE) {
+      documentId = `liga${DateHelper.getDateSnakeFormmated()}`;
+    } else {
+      documentId = `war${this.warData.endTime.split('.')[0]}`; // dps ver outro nome aq
+    }
+    this.dataService.writeWarData(this.warData, documentId);
   }
 }
 

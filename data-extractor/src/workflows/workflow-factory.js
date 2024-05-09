@@ -14,19 +14,19 @@ class WorkflowFactory {
       currentNormalWar = await clashApiService.getCurrentWar();
       currentLeagueWar = await clashApiService.getCurrentWarLeagueGroupWarTags();
 
-      if (currentNormalWar.reason == 'inMaintenance' && currentLeagueWar.reason == 'inMaintenance') {
+      if (currentNormalWar?.reason == 'inMaintenance' && currentLeagueWar?.reason == 'inMaintenance') {
         throw new MaintenanceError();
       }
       else if (
-        (currentNormalWar.state && currentNormalWar.state != 'notInWar') &&
-        (!currentLeagueWar.reason || currentLeagueWar.reason != 'notFound')// temporary. During the next war league verify the correct state
+        (currentNormalWar?.state && currentNormalWar?.state != 'notInWar') &&
+        (!currentLeagueWar?.reason || currentLeagueWar?.reason != 'notFound')// temporary. During the next war league verify the correct state
       ) {
         throw new WTFError(currentNormalWar, currentLeagueWar);
       }
-      else if (currentLeagueWar.state && currentLeagueWar.reason != 'notFound') {// temporary. During the next war league verify the correct state
+      else if (currentLeagueWar?.state && currentLeagueWar?.reason != 'notFound') {// temporary. During the next war league verify the correct state
         workflowType = WarTypeEnum.LEAGUE;
       }
-      else if (currentNormalWar.state && currentNormalWar.state != 'notInWar') {
+      else if (currentNormalWar?.state && currentNormalWar?.state != 'notInWar') {
         workflowType = WarTypeEnum.NORMAL;
       } else {
         throw new UnexpectedError(currentNormalWar, currentLeagueWar);

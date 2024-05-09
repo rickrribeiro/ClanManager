@@ -1,8 +1,8 @@
 const BaseWorkflow = require('./base-workflow');
-
+const warTypeEnum = require('../enums/war-type-enum')
 class NormalWarWorkflow extends BaseWorkflow {
   constructor(clasApiService, dataService, currentWar) {
-    super(clasApiService, dataService, currentWar);
+    super(clasApiService, dataService, currentWar, warTypeEnum.NORMAL);
   }
 
   async verifyIfWarHasEnded() {
